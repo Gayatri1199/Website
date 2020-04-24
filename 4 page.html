@@ -1,0 +1,64 @@
+<html>
+<head>
+    <style>
+        .container {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+
+  background-color: darkmagenta;
+    color: aqua;
+  font-size: 60px;
+  padding: 16px 32px;
+}
+        body{
+            background-image: url(https://tse4.mm.bing.net/th?id=OIP.oyG9CrcYIcApkxFKtIewjwHaEK&pid=15.1&P=0&w=337&h=190);
+            background-size: cover;
+        }
+
+    </style>
+    </head>
+<body>
+    <h2 style="font-family: Algerian;font-size: 60px;color: chocolate;text-align: center">THIS IS MY COLLEGE</h2>
+<p style="font-family: Algerian;font-size: 60px;color: chocolate;text-align: center">AMITY UNIVERSITY AUR</p>
+
+<div class="container">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.5SNQB-iHxszsRqnLcNp8PQHaIi&pid=15.1&P=0&w=300&h=300"alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+      <div class="text"><a href="">AUR</a></div>
+  </div>
+</div>
+
+ 
+         </body></html>
